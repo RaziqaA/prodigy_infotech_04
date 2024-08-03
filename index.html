@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Added Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+<link rel = "stylesheet" href = "style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav id = "top">
+            <div class="left"> SYEDA RAZIQA'S<br>PORTFOLIO</div>
+            <ul>
+                <li> <a href ="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id = "Home">
+        <section class="firstsection">
+            <div class="leftsection">
+                <p style="color:rgb(255, 0, 230)">Hi, My Name Is <span class="purple">SYEDA RAZIQA</span></p>
+                <p style="color:rgb(230, 121, 26)"> I Am a Passionate
+
+                    <span id="element"><i>Web developer , Aspiring Cloud Engineer and a Devops Engineer</i></span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span>
+                </p>
+            </div><br>
+            <a href = "https://github.com/RaziqaA" class = "button" >
+                <button class="btd">Github</button></a>
+                <a href = "https://www.linkedin.com/in/syedaraziqa07"class = "button">
+                <button class="btd">LinkedIn</button></a>
+            </div>
+            <div class="rightsection">
+                <img src="./images/developer.png.png" alt="female developer">
+            </div>
+            </section>
+        </section>
+
+        <section class="secondsection"></section>
+
+    </main>
+    <!--Use of tyedjs from git hub i have copied a cdn along with span and script code snippet -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web developer  , Aspiring Cloud Engineer and a Devops Engineer</i>'],
+            typeSpeed: 50,
+
+        });
+    </script>
+    <style data-typed-js-cursor-css="true">
+        .typed-cursor {
+            opacity: 1;
+        }
+
+        .typed-cursor.typed-cursor--blink {
+            animation: typedjsBlink 0.7s infinite;
+            -webkit-animation: typedjsBlink 0.7s infinite;
+            animation: typedjsBlink 0.7s infinite;
+        }
+
+        @keyframes typedjsBlink {
+            50% {
+                opacity: 0.0;
+            }
+        }
+
+        @-webkit-keyframes typedjsBlink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    
+   <section id ="About">
+    <section class="about">
+        <div class="about-img">
+            <img src="./images/Beautiful_me.jpg" alt="">
+        </div>
+       <hr>
+   
+        <div class="about-content">
+     
+            <h3 style="color : white "><u> About Me</u></h3>
+            <p class="styling">Hello! I'm Syeda Raziqa, <br> a passionate Full Stack Developer<br> with diverse skill set and
+                strong background in Technology.<br> I'm proficient in Java, Python, HTML, CSS,
+                and
+                JavaScript & React.<br> On the backend, I excel with Django, MySQL,
+                 along with version control Git & Github<br>
+                <br>
+            </p>
+        </div>
+        
+    </section>
+    </section>
+    <section id = "Services">
+    <section class="services" >
+        <h3><u>Services</u></h3>
+        <div class="services-container">
+            
+                <div class="services-box">
+                    <img src = "./images/frontend.png" alt = "webz_dev">
+                      <div class="service-content">
+                          <h3> Web dev FrontEnd </h3>
+                          
+                     
+                      </div>
+                  </div>
+                 <div class="services-box">
+               <img src = "images/backend.png" alt = "Web_development">
+                <div class="service-content">
+                    <h3>Web Development Backend</h3>
+                </div>
+            </div>
+                    <div class="services-box">
+                        <img src = "./images/aws2.png" alt = "game_dev">
+                        <div class="service-content">
+                            <h3>Cloud Services</h3>
+                       
+                        </div>
+                    </div>
+        </div>
+        </section>
+    </section>
+    <br><br>
+    <section id = "Projects">
+    <section class="Portfolio">
+    <h2 class="heading"><u>Latest Projects</u></h2>
+    <div class="Portfolio-container">
+        <div class="Portfolio-box">
+            <img src="./images/Portf.png" alt="" height = "300px">
+            <div class="Portfolio-layer">
+                <h4 style="color:black">Portfolio</h4>
+                <p style = "color :black;">React based Portfolio of Me!</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/grocery.png" alt="Grocery" width = "400px" height = "300px">
+            <div class="Portfolio-layer">
+                <h4 style="color:yellow;">  Grocery Store</h4>
+                <p style = "color:rgb(16, 16, 16);">CRUD Operations</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/job.png" alt="Job" width = "400px" height = "300px">
+            <div class="Portfolio-layer">
+                <h4 style = "color :black;">Job Description Portal</h4>
+                <p>Machine Learning</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/AR7.png" alt="" width = "300px" height = "300px">
+            <div class="Portfolio-layer">
+                <h4>Personality Development Platform</h4>
+                <p style = "color:blanchedalmond;">Full stack</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/stopwatch.png" alt="" width = "400px" height = "300px">
+            <div class="Portfolio-layer">
+                <h4>StopWatch</h4>
+                <p>Html,Css,Javascript</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/muse.png" alt="" width = "400px" height = "300px">
+            <div class="Portfolio-layer">
+                <h4>Museum Management </h4>
+                 <p>Database Based</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/TO-DO.png" alt="">
+            <div class="Portfolio-layer">
+                <h4 style="color:black">TO-DO-LIST</h4>
+              <p style = "color:black;">Html,css,Javascript</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="Portfolio-box">
+            <img src="./images/TICPIC.png" alt="" height = "500px">
+            <div class="Portfolio-layer">
+                <h4 style = "color:black;">TIC-TAC-TOE</h4>
+                <p style = "color:black;">Html,Css,Javascript</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="Portfolio-box">
+            <img src="./images/converter.png" alt="" width = "400px" height = "500px">
+            <div class="Portfolio-layer">
+                <h4 style = "color:black;">Currency Converter</h4>
+                <p style = "color:black;"><u>API Based</u></p>
+               
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div></div></section></section>
+    <section id = "Contact">
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Email: syedaraziqa01@gmail.com</p>
+                <p>Phone: +9198xxxxxxxx</p>
+                <p>Address: Rxxxxxxxxxx</p>
+            </div>
+            <form class="contact-form">
+                <h3>Send a Message</h3>
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div></section>
+    </section>
+    <footer>
+        <p>&copy; 2024 Syeda Raziqa. All rights Reserved</p>
+        <div class="social-media">
+           
+            <a href="https://x.com/SRaziqa4909" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/syeda_raziqa/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+
+
+
+</body>
+
+</html>
